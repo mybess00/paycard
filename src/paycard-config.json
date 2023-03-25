@@ -1,6 +1,24 @@
 {
+    "User": {
+        "name": "Rafael Planas Betancourt",
+        "biography": "Lorem ipsum dolor sit amet. Et suscipit eaque non debitis vero sit ipsa vitae eum quia exercitationem sit modi cupiditate hic consequatur repellendus est sint voluptas.",
+        "image": "../assets/rafa_profile.jpg",
+        "social_media": {
+            "facebook": "",
+            "instagram": "",
+            "whatsapp": "",
+            "twitter": "",
+            "youtube": "",
+            "email": "",
+            "telegram": "",
+            "linkedin": "",
+            "github": "",
+            "reddit": ""
+        }
+    },
     "PayData": [
         {
+            "id": "btc",
             "name": "Bitcoin",
             "content": "btc address",
             "style": {
@@ -8,6 +26,7 @@
             }
         },
         {
+            "id": "eth",
             "name": "Ethereum",
             "content": "eth address",
             "style": {
@@ -15,6 +34,7 @@
             }
         },
         {
+            "id": "ltc",
             "name": "Litecoin",
             "content": "ltc address",
             "style": {
@@ -22,6 +42,7 @@
             }
         },
         {
+            "id": "bnb",
             "name": "BNB Chain",
             "content": "bnb address",
             "style": {
@@ -29,6 +50,7 @@
             }
         },
         {
+            "id": "paypal",
             "name": "PayPal",
             "content": "paypal address",
             "style": {
@@ -36,6 +58,7 @@
             }
         },
         {
+            "id": "trx",
             "name": "Tron",
             "content": "trx address",
             "style": {

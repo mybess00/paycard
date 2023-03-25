@@ -9,6 +9,8 @@ module.exports = {
 			'sm': {'max': '640px'},
 	  
 			'md': {'min': '641px', 'max': '768px'},
+
+      'phone': {'max': '768px'},
 	  
 			'lg': {'min': '769px', 'max': '1024px'},
 	  

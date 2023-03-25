@@ -1,19 +1,19 @@
 import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
-import PayCard from './components/PayCard';
 import ConfigFile from './paycard-config.json';
 import { ToastContainer } from 'react-toastify';
-import Modal from './components/Modal';
-
+import PayCard from './components/PayCard';
+import UserInfo from './layout/UserInfo';
 
 function App() {
   return (
     <div className="App">
-      <div className='grid grid-cols-5 gap-3 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 mx-[7%] md:mx-1 sm:mx-1 auto-rows-max'>
+      <UserInfo userConfig={ConfigFile.User}/>
+      <div className='grid grid-cols-5 gap-3 lg:grid-cols-4 phone:grid-cols-2 mx-[7%] phone:mx-3 auto-rows-max'>
         {
           ConfigFile.PayData.map((element, index) => {
             return <PayCard
-                    id={index}
+                    id={`${index}${element.id}`}
                     name={element.name}
                     content={element.content}
                     style={element.style}
