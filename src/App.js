@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <UserInfo userConfig={ConfigFile.User}/>
-      <div className='grid grid-cols-5 gap-3 lg:grid-cols-4 phone:grid-cols-2 mx-[7%] phone:mx-3 auto-rows-max'>
+      <div className='grid grid-cols-5 gap-3 lg:grid-cols-4 phone:grid-cols-2 mx-[12%] phone:mx-3 auto-rows-max mt-6'>
         {
           ConfigFile.PayData.map((element, index) => {
             return <PayCard

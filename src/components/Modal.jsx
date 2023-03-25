@@ -17,7 +17,7 @@ export default function Modal({ id, name, qrContent, isVisible, handleVisibility
   return (
     <ReactModal isOpen={isVisible} overlayClassName='ReactModal__Overlay' role='dialog' style={{
       content: {
-        position: 'absolute',
+        position: 'fixed',
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -50%)',
@@ -42,7 +42,7 @@ export default function Modal({ id, name, qrContent, isVisible, handleVisibility
               </div>
               <div onClick={copyQrContent} className='flex flex-row flex-nowrap items-center gap-1 my-2 text-white cursor-pointer bg-emerald-700 hover:bg-emerald-900 rounded-xl p-3 duration-300'>
                 <IoCopy/> 
-                <div>Copy QR content</div>
+                <div>Copy payment information</div>
               </div>    
             </div>
         </div>    

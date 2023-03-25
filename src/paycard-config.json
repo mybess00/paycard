@@ -2,18 +2,29 @@
     "User": {
         "name": "Rafael Planas Betancourt",
         "biography": "Lorem ipsum dolor sit amet. Et suscipit eaque non debitis vero sit ipsa vitae eum quia exercitationem sit modi cupiditate hic consequatur repellendus est sint voluptas.",
-        "image": "../assets/rafa_profile.jpg",
+        "image": "/images/rafa_profile.jpg",
         "social_media": {
             "facebook": "",
             "instagram": "",
             "whatsapp": "",
-            "twitter": "",
-            "youtube": "",
-            "email": "",
-            "telegram": "",
+            "twitter": "a",
+            "youtube": "a",
+            "email": "a",
+            "telegram": "https://t.me/mybes00",
             "linkedin": "",
             "github": "",
-            "reddit": ""
+            "reddit": "",
+            "gmail": "",
+            "wechat": "",
+            "tumblr": "",
+            "snapchat": "",
+            "pinterest": "a",
+            "discord": "",
+            "medium": "a",
+            "tiktok": "",
+            "twitch": "",
+            "link": "",
+            "newsletter": ""
         }
     },
     "PayData": [
