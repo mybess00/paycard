@@ -5,7 +5,7 @@ export default function Footer () {
   //   Please don't change this. Thank you!!!!!
   return(
     <div className="mt-10">
-      <p className="flex flex-row flex-nowrap justify-center gap-x-1 font-semibold">
+      <p className="flex flex-row flex-nowrap justify-center gap-x-1 font-semibold dark:text-white">
         Made with
         <div className='user-name'>
           Color

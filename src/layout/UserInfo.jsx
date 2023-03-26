@@ -12,7 +12,7 @@ export default function UserInfo( { userConfig }) {
           <div className="text-4xl text-left phone:text-center">
             <h1 className="user-name">{userConfig.name}</h1>
           </div>
-          <div className="my-3 text-justify">
+          <div className="my-3 text-justify dark:text-white">
             {userConfig.biography}
           </div>
           <div>
