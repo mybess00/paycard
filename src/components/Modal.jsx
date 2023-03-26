@@ -30,7 +30,7 @@ export default function Modal({ id, name, qrContent, isVisible, handleVisibility
         height: '420px',
         width: 'fit-content',
         border: 'none',
-        boxShadow: '0 0 10px 6px rgba(0, 0, 0, 0.2)',
+        boxShadow: '0 0 15px 8px rgba(0, 0, 0, 0.1)',
         id: {id},
       }
     }}>

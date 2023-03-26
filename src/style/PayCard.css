@@ -1,3 +1,33 @@
 .pay-card{
-    @apply rounded-xl bg-red-500 cursor-pointer hover:scale-105 duration-300 shadow-2xl min-h-[130px] phone:min-h-[125px] ring-2 ring-red-600 ring-offset-2;
+    @apply rounded-xl ring-2 ring-offset-2 cursor-pointer hover:scale-105 duration-300 shadow-2xl min-h-[130px] phone:min-h-[125px] bg-center;
+}
+
+.btc {
+    @apply ring-yellow-600;
+    background-image: url('../assets/patterns/btc.svg'), linear-gradient(rgb(247, 164, 63), rgb(253, 224, 71));
+}
+
+.eth {
+    @apply ring-slate-800;
+    background-image: url('../assets/patterns/eth.svg'), linear-gradient(to left, rgb(37, 99, 235), rgb(30, 58, 138), rgb(28, 39, 135));
+}
+
+.ltc {
+    @apply ring-blue-700;
+    background-image: url('../assets/patterns/ltc.svg'), linear-gradient(to right, rgb(59, 130, 246), rgb(37, 99, 235));
+}
+
+.bnb {
+    @apply ring-yellow-600;
+    background-image: url('../assets/patterns/bnb.svg'), linear-gradient(rgb(223, 145, 49), rgb(241, 211, 56));
+}
+
+.paypal {
+    @apply ring-blue-700;
+    background-image: url('../assets/patterns/paypal.svg'), linear-gradient(to right, rgb(29, 86, 179), rgb(9, 62, 177));
+}
+
+.trx {
+    @apply ring-red-700;
+    background-image: url('../assets/patterns/trx.svg'), linear-gradient(to right, rgb(239, 68, 68), rgb(153, 27, 27));
 }
