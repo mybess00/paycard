@@ -2,7 +2,6 @@ import '../style/PayCard.css'
 import React, { useState } from 'react'
 import copy from 'copy-to-clipboard';
 import { toast } from 'react-toastify';
-import { BsShareFill } from 'react-icons/bs';
 import { IoQrCode } from 'react-icons/io5';
 import Modal from './Modal';
 import btc from '../assets/btc1.svg'
@@ -23,7 +22,7 @@ export default function PayCard({ id, name, content, style }) {
 
   return (
     <>
-      <div className={`pay-card relative flex flex-col flex-nowrap p-2 items-center justify-center phone:col-span-${style.width > 2 ? '2' : style.width} col-span-${style.width} row-span-${style.height}`} onClick={copyContent}
+      <div className={`pay-card relative flex flex-col flex-nowrap px-2 py-8 items-center phone:col-span-${style.width > 2 ? '2' : style.width} col-span-${style.width} row-span-${style.height}`} onClick={copyContent}
       style={{
         backgroundImage: btc
       }}>
@@ -32,13 +31,11 @@ export default function PayCard({ id, name, content, style }) {
             {name}
           </h2>
         </div>
-        <div className="absolute bottom-0 right-0 flex flex-row flex-nowrap gap-x-2 mr-2 mb-2 text-[1.1rem]">
-          <div className="copy-bt text-white">
-            <BsShareFill/>
-          </div>
-          <div className='text-white' onClick={openModal}>
-            <IoQrCode/>
-          </div>
+        <div className="absolute bottom-0 flex flex-row flex-nowrap mb-2 text-[0.75rem]">
+          <div onClick={openModal} className='flex flex-row flex-nowrap items-center gap-1 text-black cursor-pointer bg-white hover:bg-slate-500 rounded-xl py-[0.37rem] px-3 duration-300'>
+            <IoQrCode/> 
+            <div>Show QR</div>
+          </div> 
         </div>
       </div>
       <Modal id={id} name={name} qrContent={content} isVisible={isModalOpen} handleVisibility={handleModal}/>
