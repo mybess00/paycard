@@ -29,18 +29,20 @@ export default function Modal({ id, name, qrContent, isVisible, handleVisibility
         padding: '10px',
         height: '420px',
         width: 'fit-content',
+        border: 'none',
+        boxShadow: '0 0 10px 6px rgba(0, 0, 0, 0.2)',
         id: {id},
       }
     }}>
       <div>
         <div className="flex flex-col items-center">
-            <button onClick={closeModal} className='place-self-end'>✕</button>
+            <button onClick={closeModal} className='place-self-end bg-slate-900 hover:bg-black duration-200 text-white rounded-full py-1 px-2'>✕</button>
             <div className='flex flex-col items-center p-4'>
               <h3 className="text-lg font-bold text-center">{name}</h3>
               <div className="flex flex-col items-center my-6">
                 <QRCodeSVG value={qrContent} size='200'/>
               </div>
-              <div onClick={copyQrContent} className='flex flex-row flex-nowrap items-center gap-1 my-2 text-white cursor-pointer bg-emerald-700 hover:bg-emerald-900 rounded-xl p-3 duration-300'>
+              <div onClick={copyQrContent} className='flex flex-row flex-nowrap items-center gap-1 my-2 text-white cursor-pointer bg-emerald-700 hover:bg-emerald-900 rounded-xl px-4 py-1 duration-300'>
                 <IoCopy/> 
                 <div>Copy</div>
               </div>    

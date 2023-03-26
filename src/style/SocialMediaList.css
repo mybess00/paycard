@@ -1,0 +1,153 @@
+.ic-facebook {
+    @apply duration-200;
+}
+.ic-facebook:hover {
+    @apply scale-105 fill-[#3b5998];
+}
+
+.ic-instagram {
+    @apply duration-200;
+}
+.ic-instagram:hover {
+    @apply scale-105 fill-[#e1306c];
+}
+
+.ic-whatsapp {
+    @apply duration-200;
+}
+.ic-whatsapp:hover {
+    @apply scale-105 fill-[#128c7e];
+}
+
+.ic-twitter {
+    @apply duration-200;
+}
+.ic-twitter:hover {
+    @apply scale-105 fill-[#0b95ff];
+}
+
+.ic-youtube {
+    @apply duration-200;
+}
+.ic-youtube:hover {
+    @apply scale-105 fill-[#c01b1b];
+}
+
+.ic-email {
+    @apply duration-200;
+}
+.ic-email:hover {
+    @apply scale-105 fill-[#2d5bcc];
+}
+
+.ic-telegram {
+    @apply duration-200;
+}
+.ic-telegram:hover {
+    @apply scale-105 fill-[#07547a];
+}
+
+.ic-linkedin {
+    @apply duration-200;
+}
+.ic-linkedin:hover {
+    @apply scale-105 fill-[#0077b5];
+}
+
+.ic-github {
+    @apply duration-200;
+}
+.ic-github:hover {
+    @apply scale-105 fill-[#333333];
+}
+
+.ic-reddit {
+    @apply duration-200;
+}
+.ic-reddit:hover {
+    @apply scale-105 fill-[#ff5700];
+}
+
+.ic-gmail {
+    @apply duration-200;
+}
+.ic-gmail:hover {
+    @apply scale-105 fill-[#a82918];
+}
+
+.ic-wechat {
+    @apply duration-200;
+}
+.ic-wechat:hover {
+    @apply scale-105 fill-[#598a15];
+}
+
+.ic-tumblr {
+    @apply duration-200;
+}
+.ic-tumblr:hover {
+    @apply scale-105 fill-[#2e3d54];
+}
+
+.ic-snapchat {
+    @apply duration-200;
+}
+.ic-snapchat:hover {
+    @apply scale-105 fill-[#a77906];
+}
+
+.ic-pinterest {
+    @apply duration-200;
+}
+.ic-pinterest:hover {
+    @apply scale-105 fill-[#9e0517];
+}
+
+.ic-spotify {
+    @apply duration-200;
+}
+.ic-spotify:hover {
+    @apply scale-105 fill-[#0a8334];
+}
+
+.ic-discord {
+    @apply duration-200;
+}
+.ic-discord:hover {
+    @apply scale-105 fill-[#2d37a5];
+}
+
+.ic-medium {
+    @apply duration-200;
+}
+.ic-medium:hover {
+    @apply scale-105 fill-[#312b24];
+}
+
+.ic-tiktok {
+    @apply duration-200;
+}
+.ic-tiktok:hover {
+    @apply scale-105 fill-[#0080ff];
+}
+
+.ic-twitch {
+    @apply duration-200;
+}
+.ic-twitch:hover {
+    @apply scale-105 fill-[#6441a5];
+}
+
+.ic-link {
+    @apply duration-200;
+}
+.ic-link:hover {
+    @apply scale-105 fill-[#0051a8];
+}
+
+.ic-newsletter {
+    @apply duration-200;
+}
+.ic-newsletter:hover {
+    @apply scale-105 fill-[#9b6707];
+}
