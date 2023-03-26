@@ -1,5 +1,6 @@
 body{
   font-family: 'Almarai', sans-serif;
+  @apply bg-[#fbfcfd] dark:bg-slate-800
   /*background-color: #fbfcfd;*/
 }
 
