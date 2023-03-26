@@ -23,7 +23,7 @@ export default function PayCard({ id, name, content, style }) {
     <>
       <div className={`pay-card ${id} relative flex flex-col flex-nowrap px-2 py-8 items-center phone:col-span-${style.width > 2 ? '2' : style.width} col-span-${style.width} row-span-${style.height}`} onClick={copyContent}>
         <div>
-          <h2 className='text-black text-2xl antialiased font-semibold'>
+          <h2 className='text-black text-xl leading-5 antialiased font-medium'>
             {name}
           </h2>
         </div>

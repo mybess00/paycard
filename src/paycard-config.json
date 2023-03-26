@@ -76,6 +76,54 @@
             "style": {
                 "width": 1, "height": 1
             }
+        },
+        {
+            "id": "usdt",
+            "name": "USDT",
+            "content": "usdt address",
+            "style": {
+                "width": 1, "height": 1
+            }
+        },
+        {
+            "id": "doge",
+            "name": "Doge",
+            "content": "doge address",
+            "style": {
+                "width": 1, "height": 1
+            }
+        },
+        {
+            "id": "mastercard",
+            "name": "Mastercard",
+            "content": "mastercard address",
+            "style": {
+                "width": 1, "height": 1
+            }
+        },
+        {
+            "id": "visa",
+            "name": "Visa Card",
+            "content": "visa address",
+            "style": {
+                "width": 1, "height": 1
+            }
+        },
+        {
+            "id": "amex",
+            "name": "American Express",
+            "content": "visa address",
+            "style": {
+                "width": 1, "height": 1
+            }
+        },
+        {
+            "id": "card",
+            "name": "Personal Card",
+            "content": "card address",
+            "style": {
+                "width": 1, "height": 1
+            }
         }
     ]
 }

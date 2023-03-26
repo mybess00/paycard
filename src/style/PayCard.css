@@ -1,5 +1,6 @@
 .pay-card{
     @apply rounded-xl ring-2 ring-offset-2 cursor-pointer hover:scale-105 duration-300 shadow-2xl min-h-[130px] phone:min-h-[125px] bg-center;
+    font-family: 'Rubik', sans-serif;
 }
 
 .btc {
@@ -9,7 +10,7 @@
 
 .eth {
     @apply ring-slate-800;
-    background-image: url('../assets/patterns/eth.svg'), linear-gradient(to left, rgb(37, 99, 235), rgb(30, 58, 138), rgb(28, 39, 135));
+    background-image: url('../assets/patterns/eth.svg'), linear-gradient(to left, rgb(30, 41, 59), rgb(100, 116, 139), rgb(75, 85, 99));
 }
 
 .ltc {
@@ -30,4 +31,34 @@
 .trx {
     @apply ring-red-700;
     background-image: url('../assets/patterns/trx.svg'), linear-gradient(to right, rgb(239, 68, 68), rgb(153, 27, 27));
+}
+
+.usdt {
+    @apply ring-green-700;
+    background-image: url('../assets/patterns/usdt.svg'), linear-gradient(to right, rgb(34, 197, 94), rgb(21, 128, 61));
+}
+
+.doge {
+    @apply ring-yellow-600;
+    background-image: url('../assets/patterns/doge.svg'), linear-gradient(rgb(190, 121, 36), rgb(189, 163, 37));
+}
+
+.mastercard {
+    @apply ring-yellow-700;
+    background-image: url('../assets/patterns/mastercard.svg'), linear-gradient(to right, rgb(255, 34, 34), rgb(247, 178, 32) );
+}
+
+.visa {
+    @apply ring-sky-700;
+    background-image: url('../assets/patterns/visa.svg'), linear-gradient(to right top, rgb(2, 132, 199), rgb(59, 130, 246), rgb(38, 157, 236));
+}
+
+.amex {
+    @apply ring-blue-700;
+    background-image: url('../assets/patterns/amex.svg'), linear-gradient(to right, rgb(59, 130, 246), rgb(37, 99, 235));
+}
+
+.card {
+    @apply ring-lime-500;
+    background-image: url('../assets/patterns/card.svg'), linear-gradient(to right, rgb(96, 184, 166), rgb(169, 201, 110));
 }
