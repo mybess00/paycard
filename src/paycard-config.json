@@ -34,7 +34,7 @@
             "name": "Bitcoin",
             "content": "btc address",
             "style": {
-                "color": "red", "width": 1, "height": 1
+                "width": 1, "height": 1
             }
         },
         {
@@ -42,7 +42,7 @@
             "name": "Ethereum",
             "content": "eth address",
             "style": {
-                "color": "red", "width": 1, "height": 1
+                "width": 1, "height": 1
             }
         },
         {
@@ -50,7 +50,7 @@
             "name": "Litecoin",
             "content": "ltc address",
             "style": {
-                "color": "red", "width": 1, "height": 1
+                "width": 1, "height": 1
             }
         },
         {
@@ -58,7 +58,7 @@
             "name": "BNB Chain",
             "content": "bnb address",
             "style": {
-                "color": "red", "width": 1, "height": 1
+                "width": 1, "height": 1
             }
         },
         {
@@ -66,7 +66,7 @@
             "name": "PayPal",
             "content": "paypal address",
             "style": {
-                "color": "red", "width": 1, "height": 1
+                "width": 1, "height": 1
             }
         },
         {
@@ -74,7 +74,7 @@
             "name": "Tron",
             "content": "trx address",
             "style": {
-                "color": "red", "width": 1, "height": 1
+                "width": 1, "height": 1
             }
         }
     ]

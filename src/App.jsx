@@ -2,8 +2,9 @@ import './App.css';
 import 'react-toastify/dist/ReactToastify.css';
 import ConfigFile from './paycard-config.json';
 import { ToastContainer } from 'react-toastify';
-import PayCard from './components/PayCard';
 import UserInfo from './layout/UserInfo';
+import Footer from './layout/Footer';
+import PayCard from './components/PayCard';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           })
         }
       </div>
+      <Footer/>
       <ToastContainer
         position="bottom-right"
         autoClose={3000}
