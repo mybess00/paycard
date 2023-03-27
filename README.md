@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+# What is Paycard?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Paycard is a totally free and open source payment method unifier. It has more than 20 payment options to configure, Paycard presents a colorful and pleasant user interface with automatic dark mode.  
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- +20 Payment Options.  
+- +20 Social Media.
+- Automatic dark mode.
+- Payment options in QR.
+- User information.
+- Responsive.  
 
-### `npm start`
+## How to configure?  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You should only work with the ``paycard-config.json`` file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## paycard-config.json
 
-### `npm test`
+### User
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Within "User" you must fill in the properties to configure the presentation of the user.  
 
-### `npm run build`
+Within "social_media" you must add the link to your profile from the available social networks. You can leave blank the social networks that you do not use.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For example:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+"User": {
+        "name": "Rafael Planas Betancourt",
+        "biography": "Lorem ipsum dolor sit amet. Et suscipit eaque non debitis vero sit ipsa vitae eum quia exercitationem sit modi cupiditate hic consequatur repellendus est sint voluptas.",
+        "image": "/images/rafa_profile.jpg",
+        "social_media": {
+            "instagram": "",
+            "twitter": "https://twitter.com/RafaelAndresPB",
+            "email": "mailto:betancourtrafael00@gmail.com",
+            "telegram": "https://t.me/mybes00",
+            "linkedin": "",
+            "github": "https://github.com/mybess00",
+            "reddit": "",
+            "gmail": "",
+            "wechat": ""
+        }
+    }
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Available social media:**  
 
-### `npm run eject`
+- facebook
+- instagram
+- whatsapp
+- twitter
+- youtube
+- email
+- telegram
+- linkedin
+- github
+- reddit
+- gmail
+- wechat
+- tumblr
+- snapchat
+- pinterest
+- spotify
+- discord
+- medium
+- tiktok
+- twitch
+- link
+- newsletter  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### PayData
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Inside "PayData" will go all the payment information you want to add. You can repeat the payment options as many times as you want.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+All payment options must follow the following structure:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+{
+    "id": "btc",
+    "name": "Bitcoin",
+    "content": "bitcoin address",
+    "style": { "width": 1, "height": 1 }
+}
+```
 
-## Learn More
+The "id" property is very important, it must always be equal to one of the allowed options.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In "name" you are free to choose what to put to identify the payment method. Within "content" must go the address or payment link.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Within "style" you must set two options:
+- "width" that will specify the number of grids that the card will occupy horizontally.  
+- "height" that will specify the number of grids that the card will occupy vertically.  
 
-### Code Splitting
+They must be numbers between 1 and 5. We do not recommend using a number greater than 1 in "height".  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Available payment options (id):**
 
-### Analyzing the Bundle Size
+- PayPal (paypal)
+- Mastercard (mastercard)
+- American Express (amex)
+- VISA (visa)
+- Cash App (cashapp)
+- Zelle (zelle)
+- QvaPay (qvapay)
+- A card (card)
+- Bitcoin (btc)
+- Ethereum (eth)
+- Litecoin (ltc)
+- BNB (bnb)
+- USDT (usdt)
+- BUSD (busd)
+- TRX (trx)
+- Dash (dash)
+- Ton (ton)
+- Solana (solana)
+- Doge (doge)
+- Matic Polygon (matic)  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can order the payment options as you want them to appear. You only have to configure the payment options that you will use.  
