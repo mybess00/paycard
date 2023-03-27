@@ -16,7 +16,7 @@
             "reddit": "",
             "gmail": "",
             "wechat": "",
-            "tumblr": "",
+            "tumblr": "a",
             "snapchat": "",
             "pinterest": "",
             "spotify": "",
@@ -33,97 +33,121 @@
             "id": "btc",
             "name": "Bitcoin",
             "content": "btc address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "eth",
             "name": "Ethereum",
             "content": "eth address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "ltc",
             "name": "Litecoin",
             "content": "ltc address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "bnb",
             "name": "BNB Chain",
             "content": "bnb address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "paypal",
             "name": "PayPal",
             "content": "paypal address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "trx",
             "name": "Tron",
             "content": "trx address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "usdt",
             "name": "USDT",
             "content": "usdt address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "doge",
             "name": "Doge",
             "content": "doge address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "mastercard",
             "name": "Mastercard",
             "content": "mastercard address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "visa",
             "name": "Visa Card",
             "content": "visa address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "amex",
             "name": "American Express",
             "content": "visa address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
         },
         {
             "id": "card",
             "name": "Personal Card",
             "content": "card address",
-            "style": {
-                "width": 1, "height": 1
-            }
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "zelle",
+            "name": "Zelle link",
+            "content": "card address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "dash",
+            "name": "Dash",
+            "content": "dash address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "matic",
+            "name": "Matic Polygon",
+            "content": "matic address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "solana",
+            "name": "Solana",
+            "content": "solana address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "busd",
+            "name": "BUSD",
+            "content": "busd address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "ton",
+            "name": "Ton",
+            "content": "ton address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "qvapay",
+            "name": "QvaPay",
+            "content": "qvapay address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "cashapp",
+            "name": "Cash App",
+            "content": "cashapp address",
+            "style": { "width": 1, "height": 1 }
         }
     ]
 }

@@ -12,3 +12,7 @@
     opacity: 0;
     
 }
+
+.modal {
+    @apply bg-white dark:bg-slate-800;
+}

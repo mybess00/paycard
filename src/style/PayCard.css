@@ -62,3 +62,43 @@
     @apply ring-lime-500;
     background-image: url('../assets/patterns/card.svg'), linear-gradient(to right, rgb(96, 184, 166), rgb(169, 201, 110));
 }
+
+.zelle {
+    @apply ring-purple-800;
+    background-image: url('../assets/patterns/zelle.svg'), linear-gradient(to right, rgb(133, 47, 204), rgb(100, 42, 187),rgb(126, 44, 194));
+}
+
+.dash {
+    @apply ring-blue-700;
+    background-image: url('../assets/patterns/dash.svg'), linear-gradient(to right, rgb(35, 91, 180), rgb(33, 95, 226));
+}
+
+.matic {
+    @apply ring-purple-800;
+    background-image: url('../assets/patterns/matic.svg'), linear-gradient(to right, rgb(170, 41, 221), rgb(159, 63, 214),rgb(152, 59, 228));
+}
+
+.solana {
+    @apply ring-purple-600;
+    background-image: url('../assets/patterns/solana.svg'), linear-gradient(to right, rgb(74, 222, 128), rgb(61, 146, 226), rgb(126, 34, 206));
+}
+
+.busd {
+    @apply ring-yellow-600;
+    background-image: url('../assets/patterns/busd.svg'), linear-gradient(rgb(223, 145, 49), rgb(241, 211, 56));
+}
+
+.ton {
+    @apply ring-blue-700;
+    background-image: url('../assets/patterns/ton.svg'), linear-gradient(to right, rgb(59, 130, 246), rgb(37, 99, 235));
+}
+
+.qvapay {
+    @apply ring-purple-700;
+    background-image: url('../assets/patterns/qvapay.svg'), linear-gradient(to right, rgb(182, 43, 43), rgb(117, 36, 192), rgb(70, 79, 211));
+}
+
+.cashapp {
+    @apply ring-green-600;
+    background-image: url('../assets/patterns/cashapp.svg'), linear-gradient(to right, rgb(41, 228, 109), rgb(31, 182, 86));
+}

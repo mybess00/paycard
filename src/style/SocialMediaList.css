@@ -55,10 +55,10 @@
 }
 
 .ic-github {
-    @apply duration-200;
+    @apply duration-200 dark:fill-white;
 }
 .ic-github:hover {
-    @apply scale-105 fill-[#333333];
+    @apply scale-105 fill-[#333333] dark:fill-slate-500;
 }
 
 .ic-reddit {
@@ -83,10 +83,10 @@
 }
 
 .ic-tumblr {
-    @apply duration-200;
+    @apply duration-200 dark:fill-slate-400;
 }
 .ic-tumblr:hover {
-    @apply scale-105 fill-[#2e3d54];
+    @apply scale-105 fill-[#2e3d54] dark:fill-slate-100;
 }
 
 .ic-snapchat {
