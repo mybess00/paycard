@@ -151,3 +151,11 @@
 .ic-newsletter:hover {
     @apply scale-105 fill-[#9b6707];
 }
+
+
+.ic-producthunt {
+    @apply duration-200;
+}
+.ic-producthunt:hover {
+    @apply scale-105 fill-[#b23e24];
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/SocialMediaList.css'
-import { FaTelegramPlane } from 'react-icons/fa';
+import { FaTelegramPlane, FaProductHunt } from 'react-icons/fa';
 import { BsFacebook, BsInstagram, BsWhatsapp, BsTwitter, BsYoutube, BsGithub, BsReddit, BsWechat, BsPinterest, BsSpotify, BsDiscord } from 'react-icons/bs';
 import { IoMdMail } from 'react-icons/io';
 import { FaLinkedin, FaTumblr, FaSnapchatGhost, FaMediumM, FaTiktok, FaTwitch } from 'react-icons/fa';
@@ -30,7 +30,8 @@ export default function SocialMediaList( { socialMediaObj } ) {
     'tiktok': <FaTiktok fill='#69c9d0' className='ic-tiktok'/>,
     'twitch': <FaTwitch fill='#9146ff' className='ic-twitch'/>,
     'link': <BiLink fill='#0072C6' className='ic-link'/>,
-    'newsletter': <BiMailSend fill='#ffa500' className='ic-newsletter'/>
+    'newsletter': <BiMailSend fill='#ffa500' className='ic-newsletter'/>,
+    'producthunt': <FaProductHunt fill='#d35c38' className='ic-producthunt'/>,
   };
 
   const openLink = (link) => {

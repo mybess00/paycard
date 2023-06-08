@@ -25,7 +25,8 @@
             "tiktok": "",
             "twitch": "",
             "link": "",
-            "newsletter": ""
+            "newsletter": "",
+            "producthunt": ""
         }
     },
     "PayData": [
@@ -147,6 +148,30 @@
             "id": "cashapp",
             "name": "Cash App",
             "content": "cashapp address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "zinli",
+            "name": "Zinli Card",
+            "content": "zinli address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "zec",
+            "name": "Zcash",
+            "content": "zcash address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "hive",
+            "name": "Hive",
+            "content": "hive address",
+            "style": { "width": 1, "height": 1 }
+        },
+        {
+            "id": "bch",
+            "name": "Bitcoin Cash",
+            "content": "bch address",
             "style": { "width": 1, "height": 1 }
         }
     ]
