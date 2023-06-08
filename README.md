@@ -68,6 +68,7 @@ For example:
 - twitch
 - link
 - newsletter  
+- producthunt  
 
 ### PayData
 
@@ -100,6 +101,7 @@ They must be numbers between 1 and 5. We do not recommend using a number greater
 - Mastercard (mastercard)
 - American Express (amex)
 - VISA (visa)
+- Zinli Card (zinli)
 - Cash App (cashapp)
 - Zelle (zelle)
 - QvaPay (qvapay)
@@ -116,5 +118,8 @@ They must be numbers between 1 and 5. We do not recommend using a number greater
 - Solana (solana)
 - Doge (doge)
 - Matic Polygon (matic)  
+- Bitcoin Cash (bch)
+- Hive (hive)
+- Zcash (zec)
 
 You can order the payment options as you want them to appear. You only have to configure the payment options that you will use.  
