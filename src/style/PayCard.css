@@ -102,3 +102,23 @@
     @apply ring-green-600;
     background-image: url('../assets/patterns/cashapp.svg'), linear-gradient(to right, rgb(41, 228, 109), rgb(31, 182, 86));
 }
+
+.zinli {
+    @apply ring-purple-900;
+    background-image: url('../assets/patterns/zinli.svg'), linear-gradient(to right, rgb(90, 75, 158), rgb(108, 66, 156), rgb(90, 75, 158));
+}
+
+.zec {
+    @apply ring-yellow-600;
+    background-image: url('../assets/patterns/zec.svg'), linear-gradient(rgb(247, 164, 63), rgb(209, 183, 51));
+}
+
+.hive {
+    @apply ring-red-700;
+    background-image: url('../assets/patterns/hive.svg'), linear-gradient(to right, rgb(227, 19, 55), rgb(172, 11, 37));
+}
+
+.bch {
+    @apply ring-green-600;
+    background-image: url('../assets/patterns/bch.svg'), linear-gradient(to right, rgb(10, 193, 142), rgb(8, 161, 118));
+}
